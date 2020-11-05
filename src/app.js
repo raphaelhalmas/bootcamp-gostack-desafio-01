@@ -20,7 +20,7 @@ app.post("/repositories", (request, response) => {
     url,
     techs,
     likes: 0
-  }
+  } 
 
   repositories.push(repository);
   return response.json(repository);
